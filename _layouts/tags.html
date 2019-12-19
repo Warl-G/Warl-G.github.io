@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	{%- include head.html -%}
+</head>
+<body>
+	<header class="texture-{{ site.texture.style }}">
+		<div class="container">
+			{%- include nav.html -%}
+		</div>
+		{%- include page_header.html -%}	
+	</header>
+	<main>
+		<div class="main-page">
+			<div class="container">
+				{%- if site.posts.size > 0 -%}
+				<ul class="posts">
+					{% assign sorted_tags = site.tags | sort %}
+					{% for tag in sorted_tags %} 
+			  <li  id="{{ tag[0] }}-ref"> <h2 class="category">{{ tag[0] }}</h2></li>
+			    {% assign pages_list = tag[1] %}  
+			    {%- include page_list.html -%}
+				{% assign pages_list = nil %}
+			{% endfor %}
+				</ul>
+				{%- endif -%}
+			</div>
+			<div >
+<div class="sidemenu">
+			<h2 align="start">标签</h2>
+      <ul>
+      	{% assign sorted_tags = site.tags | sort %}
+        {% if sorted_tags.first[0] == null %}
+				  	{% for tag in sorted_tags %} 
+				  	<li><a href="{{ site.JB.tags_path }}#{{ tag }}-ref">{{ tag }} ({{ site.tags[tag].size }})</a></li>
+				  	{% endfor %}
+				{% else %}
+				  	{% for tag in sorted_tags %} 
+				  	<li><a href="{{ site.JB.tags_path }}#{{ tag[0] }}-ref">{{ tag[0] }} ({{ tag[1].size }})</a></li>
+				  	{% endfor %}
+				{% endif %}
+      </ul>
+</div>
+</div>
+		</div>
+	</main>
+	{%- include c_footer.html -%}
+</body>
+</html>

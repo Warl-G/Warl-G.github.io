@@ -1,13 +1,27 @@
-{%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+
 <div class="container">
 	<h1>{{ page.title }}</h1>
 	<h4 class="post-description">{{ page.description }}</h4>
-	<div class="post-date" style="margin-top:20px">
-		Published on {{ page.date | date: date_format }}
+	<div class="post-date" style="margin-top:0px">
+		{{ page.date | date: "%F" }}
 	</div>
-	<ul class="post-tags">
+	<div class="post-date" style="margin-top:10px">
+    字数：{{ page.content | strip_html | strip_newlines | remove: " " | size }}&nbsp;&nbsp;
+    <span "id="busuanzi_container_page_pv">阅读 <span id="busuanzi_value_page_pv"></span></span>
+  </div>
+  <div class="post-date"> 分类：
+              {% for category in page.categories %} 
+                <a href="{{ '/categories/' | prepend: site.baseurl }}#{{category}}-ref">[{{category}}]</a> 
+              {% endfor %}
+              <br />标签：
+              {% for tag in page.tag %} 
+                <a href="{{ '/tags/' | prepend: site.baseurl }}#{{tag}}-ref">#{{tag}}</a> 
+              {% endfor %}
+              </div>
+<!-- 	<ul class="post-tags">
 		{%- for tag in page.categories -%}
 			<li>{{ tag }}</li>
 		{%- endfor -%}
-	</ul>
+	</ul> -->
+	
 </div>

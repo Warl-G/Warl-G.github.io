@@ -1,6 +1,6 @@
-title: Texture Theme
-author: GitHub User
-email: your-email@domain.com
+title: Warl-G's Blog
+author: Warl-G
+email: guoru123@sina.com
 description: > # this means to ignore newlines until "show_exerpts:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
@@ -15,19 +15,19 @@ sass:
 
 permalink: /posts/:title/
 texture:
-  title: Adam Denisov
-  tagline: Developer. Designer
-  date_format: "%b %-d, %Y"
+  title: Warl-G's Blog
+  tagline: 充能中...
+  date_format: "%F" #"%b %-d, %Y"
   style: black
   showNav: true
-  showPicker: false
+  showPicker: true
 
   # generate social links in footer
   social_links:
-    twitter: thelehhman
-    github:  thelehhman
-    linkedIn: in/thelehhman
-    rss: rss
+    #twitter: thelehhman
+    github:  Warl-G/Warl-G.github.io
+    #linkedIn: in/thelehhman
+    #rss: rss
  
 
 # If you want to link only specific pages in your header, uncomment
