@@ -61,7 +61,7 @@ figcaption {
 
 header {
 	// background-size: cover;
-	padding: 120px 0;
+	padding: 120px 0 60px;
 	color: #fff;
 	overflow: hidden;
 	h2 {
@@ -94,8 +94,8 @@ header {
 	}
 }
 
-.footer {
-  margin-top: 20px;
+footer {
+  margin-top: 50px;
   padding-bottom: 1px;
   text-align: left;
   border-top: 1px solid #eeeeee;
@@ -351,4 +351,11 @@ header {
 			}
 		}
 	}
+}
+
+.social_icon {
+	border-radius: 5px; 
+	margin-right: 6.745px;
+	width: 32px;
+	height: 32px;
 }

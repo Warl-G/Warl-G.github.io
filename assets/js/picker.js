@@ -5,17 +5,19 @@
 window.onload = function() {
 	// Handle Texture Picker
 	const $picker = document.querySelector('#texture-picker');
-	const $hidePicker = document.querySelector('#hidePicker');
+	// const $hidePicker = document.querySelector('#hidePicker');
 	const $header = document.querySelector('header');
+	const $footer = document.querySelector('footer');
 	
 	$picker.onclick = function(e) {
 		const textureName = e.target.id;
 		if (textureName && textureName != 'texture-picker' && textureName != 'hidePicker') {
 			$header.setAttribute('class', `texture-${textureName}`);
+			$footer.setAttribute('class', `texture-${textureName}`);
 		}
 	}
 
-	$hidePicker.onclick = function () {
-		$picker.style['display'] = 'none';	
-	}
+	// $hidePicker.onclick = function () {
+	// 	$picker.style['display'] = 'none';	
+	// }
 }

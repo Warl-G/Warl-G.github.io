@@ -5,22 +5,22 @@
 
  {%- if site.texture.showPicker -%}
 #texture-picker {
-    position: fixed;
-    {%- if site.texture.showNav -%}
-        top: 100px;
-        right: 5vw;
-    {%- else -%}
-        top: 20px;
-        right: 20px;
-    {%- endif -%}
-    background-color: #fff;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    padding: 8px 12px;
-    p {
-        margin: 0;
-        @include fluidType(14px, 15px);
-    }
+    //position: fixed;
+    //{%- if site.texture.showNav -%}
+    //    top: 100px;
+     //   right: 5vw;
+    //{%- else -%}
+    //    top: 20px;
+    //    right: 20px;
+    //{%- endif -%}
+    //background-color: #fff;
+    //border: 1px solid #ccc;
+    //border-radius: 5px;
+    //padding: 8px 12px;
+    //p {
+    //    margin: 0;
+    //    @include fluidType(14px, 15px);
+    //}
     .info {
         background-color: rgba(#ffd68d, 0.7);
         border-radius: 4px;
@@ -54,7 +54,6 @@
 // Textures
 .texture-black {
     background-image: url('{{ site.baseurl }}/assets/textures/black.jpg');
-
     h2 {
         color: #999;
     }
@@ -62,7 +61,6 @@
 
 .texture-blue {
     background-image: url('{{ site.baseurl }}/assets/textures/blue.jpg');
-
     h2 {
         color: #ddd;
     }
@@ -86,7 +84,6 @@
 
 .texture-green {
     background-image: url('{{ site.baseurl }}/assets/textures/green.jpg');
-
     .post-date {
         color: #ccc;
     }

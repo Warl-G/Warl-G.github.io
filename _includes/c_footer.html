@@ -1,13 +1,30 @@
-<footer class="texture-{{ site.texture.style }} footer"> 
-	<div class="container">
-		<p class="post-line">Copyright &copy; {{ site.time | date: '%Y' }} <a href="{{site.resume_site}}">{{ site.author }}</a>.</p>
-		<p class="post-line">Powered by <a href="http://jekyllrb.com">Jekyll</a></p>
+<footer class="texture-{{ site.texture.style }}"> 
+	<div class="container" style="overflow:auto;">
+		<div style="float:left;">
+			<p class="post-line">Copyright &copy; {{ site.time | date: '%Y' }} <a class="post-date" href="{{site.resume_site}}">{{ site.author }}</a>.</p>
+			<p class="post-line">Powered by <a class="post-date"  href="http://jekyllrb.com">Jekyll</a></p>
+		
+		</div>
+		{%- if site.texture.showPicker -%}
+<div id="texture-picker" style="float:right;margin-top: 20px">
+	<!-- <div style="display:flex;justify-content: space-between">
+		<p>Select Texture</p>
+		<p><a id="hidePicker" href="#">Hide</a></p>
+	</div> -->
+	<div class="texture-colors" >
+			<div id="black"></div>
+			<div id="blue"></div>	
+			<div id="red"></div>	
+			<div id="purple"></div>		
+			<div id="green"></div>
 	</div>
+	</div>
+	
+<script src="{{ "/assets/js/picker.js" | relative_url }}"></script>
+{%- endif -%}
+	</div>
+		
+		
 </footer>
 
-<script src="{{ '/styles/js/jquery.min.js' | prepend: site.baseurl }}"></script>
-<script src="{{ '/styles/js/bootstrap.min.js' | prepend: site.baseurl }}"></script>
-<script src="{{ '/styles/js/holder.min.js' | prepend: site.baseurl }}"></script>
-<script src="{{ '/styles/js/lessismore.js' | prepend: site.baseurl }}"></script>
-<script src="{{ '/styles/js/application.js' | prepend: site.baseurl }}"></script>
 <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>

@@ -10,6 +10,8 @@ show_excerpts: true # set to true to show excerpts on the homepage
 
 # Minima date format
 # refer to http://shopify.github.io/liquid/filters/date/ if you want to customize this
+baidu_analysis: 58ab546711cec90b5b0a6bc75b580abe
+
 sass:
   sass_dir: _sass
 
@@ -28,6 +30,13 @@ texture:
     github:  Warl-G/Warl-G.github.io
     #linkedIn: in/thelehhman
     #rss: rss
+    jianshu: 63319e52f015
+    zhihu:   Warl-G
+    sspai:  l1d4a3pm
+    juejin: 5df4bb5b518825121b436d5e
+    #csdn:
+
+ 
  
 
 # If you want to link only specific pages in your header, uncomment

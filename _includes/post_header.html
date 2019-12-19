@@ -11,11 +11,11 @@
   </div>
   <div class="post-date"> 分类：
               {% for category in page.categories %} 
-                <a href="{{ '/categories/' | prepend: site.baseurl }}#{{category}}-ref">[{{category}}]</a> 
+                <a class="post-date" href="{{ '/categories/' | prepend: site.baseurl }}#{{category}}-ref">[{{category}}]</a> 
               {% endfor %}
               <br />标签：
               {% for tag in page.tag %} 
-                <a href="{{ '/tags/' | prepend: site.baseurl }}#{{tag}}-ref">#{{tag}}</a> 
+                <a class="post-date" href="{{ '/tags/' | prepend: site.baseurl }}#{{tag}}-ref">#{{tag}}</a> 
               {% endfor %}
               </div>
 <!-- 	<ul class="post-tags">
