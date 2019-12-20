@@ -94,6 +94,13 @@ header {
 	}
 }
 
+tags_link {
+	&: hover {
+		background-color: rgba(#fff, 0.15);
+		cursor: pointer;
+	}
+}
+
 footer {
   margin-top: 50px;
   padding-bottom: 1px;
