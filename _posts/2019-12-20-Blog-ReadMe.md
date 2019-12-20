@@ -9,7 +9,7 @@ tag: [说明]
 
 本博客以[Jekyll](https://jekyllrb.com/)技术支持，在[texture](https://github.com/thelehhman/texture)主题基础上添加部分功能
 
-## 增加
+## 已加功能
 * 分类索引页（Category）
 * 标签索引页（Tag）
 * 目录索引
@@ -19,10 +19,12 @@ tag: [说明]
 * 百度统计  
 * 国内部分博客入口
 * 网页title logo
-
-## 待添加
 * 搜索引擎可搜索
+	* 添加谷歌验证
+	* 百度被gitpage屏蔽，需做国内镜像，不做了，直接投稿国内网站
 * GitTalk评论系统
+  
+## 待加功能
 * 关于
 * 其他
 
