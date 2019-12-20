@@ -16,6 +16,30 @@
           {{ content }}
       </div>
 
+     
+      <!-- Gitalk 评论 start  -->
+
+ {%- if site.function.gitalk_id and site.function.gitalk_secret -%}
+<link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+  <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+<div id="gitalk-container"></div>     
+<script type="text/javascript">
+    var gitalk = new Gitalk({
+
+    // gitalk的主要参数
+    clientID: '{{site.function.gitalk_id}}',
+    clientSecret: "{{site.function.gitalk_secret}}",
+    repo: '{{site.function.gitalk_repo}}',
+    owner: 'Warl-G',
+    admin: ['Warl-G'],
+    id: location.pathname,
+    });
+    gitalk.render('gitalk-container');
+</script> 
+
+      {%- endif -%}
+      <!-- Gitalk end -->
+
         <!-- Configure Disqus -->
       {%- if site.texture.disqus_shortname -%}
         <div id="disqus_thread" style="margin-top:25px"></div>

@@ -10,7 +10,11 @@ show_excerpts: true # set to true to show excerpts on the homepage
 
 # Minima date format
 # refer to http://shopify.github.io/liquid/filters/date/ if you want to customize this
-baidu_analysis: 58ab546711cec90b5b0a6bc75b580abe
+function:
+  baidu_analysis: 58ab546711cec90b5b0a6bc75b580abe
+  gitalk_id: f880a4741a00031570d7
+  gitalk_secret: a2e47c5863efa96322515ba45f85b78f65c9f5a0
+  gitalk_repo: Warl-G.github.io
 
 sass:
   sass_dir: _sass
