@@ -12,7 +12,7 @@
 	</header>
 	<main>
 		<div class="main-page">
-			<div class="container">
+			<div class="container" style="flex: 0.75;">
 				{%- if site.posts.size > 0 -%}
 				<ul class="posts">
 				{%- for post in site.posts -%}
@@ -68,7 +68,8 @@
 </div>
 </div>
 		</div>
+		{%- include c_footer.html -%}
 	</main>
-	{%- include c_footer.html -%}
+	
 </body>
 </html>
