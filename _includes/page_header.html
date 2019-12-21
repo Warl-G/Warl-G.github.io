@@ -8,11 +8,12 @@
               {% assign single_count = post.content | strip_html | strip_newlines | remove: " " | size %}
               {% assign count = count | plus: single_count %}
               {% endfor %}
-              {% if count > 10000 %}
+              {{ count }}
+              <!-- {% if count > 10000 %}
               {{ count | divided_by: 10000 }} 万 {{ count | modulo: 10000 }}
-              {% else %}
-            {{ count }}
-          {% endif %} 
+              {% else %} -->
+            <!-- {{ count }} -->
+          <!-- {% endif %}  -->
           &nbsp;&nbsp;
            <span id="busuanzi_container_site_uv">访客数：<span id="busuanzi_value_site_uv"></span></span>
        </div>
