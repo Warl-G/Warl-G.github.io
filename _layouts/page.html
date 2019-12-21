@@ -12,7 +12,8 @@
 	</header>
 	<main>
 		<div class="main-page">
-			<div class="container" style="flex: 0.75;">
+			<div style="flex: left; width: 15%"></div>
+			<div class="container" style="flex: left; width: 70%">
 				{%- if site.posts.size > 0 -%}
 				<ul class="posts">
 				{%- for post in site.posts -%}
@@ -23,13 +24,13 @@
                     <li id="year_{{this_year}}"><h2 class="category">{{this_year}}</h2></li>
                   {% endif %}
                   <li>
-						<div class="post-meta">
+						<div class="post-meta ">
 							<a class="post-link" href="{{ post.url | relative_url }}">
 								<h2 class="post-title">{{ post.title | escape }}</h2>
 							</a>
 						<div class="post-date"><i class="icon-calendar"></i>{{ post.date | date: "%F" }}</div>
 						</div>
-						<div class="post">
+						<div class="post ">
 						{%- if site.show_excerpts -%}
 							{{ post.excerpt }}
 						{%- endif -%}
@@ -40,14 +41,11 @@
                      <li id="year_{{next_year}}"><h2 class="category">{{next_year}}</h2></li>
                     {% endif %}
                   {% endif %}
-
-
-					
 				{%- endfor -%}
 				</ul>
 				{%- endif -%}
 			</div>
-			<div >
+			<div style="flex: right; width: 15%">
 <div class="sidemenu">
 			<h2 align="start">时间</h2>
       <ul>
