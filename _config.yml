@@ -34,13 +34,15 @@ texture:
     #linkedIn: in/thelehhman
     #rss: rss
     jianshu: 63319e52f015
-    zhihu:   Warl-G
-    sspai:  l1d4a3pm
-    juejin: 5df4bb5b518825121b436d5e
+    #zhihu:   Warl-G
+    #sspai:  l1d4a3pm
+    #juejin: 5df4bb5b518825121b436d5e
     #csdn:
 
  
 markdown: kramdown
+kramdown:
+  input: GFM
  
 
 # If you want to link only specific pages in your header, uncomment
