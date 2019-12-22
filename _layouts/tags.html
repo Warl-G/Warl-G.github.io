@@ -12,21 +12,8 @@
 	</header>
 	<main>
 		<div class="main-page">
-			<div style="flex: left; width: 15%"></div>
-			<div class="container" style="flex: left; width: 70%">
-				{%- if site.posts.size > 0 -%}
-				<ul class="posts">
-					{% assign sorted_tags = site.tags | sort %}
-					{% for tag in sorted_tags %} 
-			  <li  id="{{ tag[0] }}-ref"> <h2 class="category">{{ tag[0] }}</h2></li>
-			    {% assign pages_list = tag[1] %}  
-			    {%- include page_list.html -%}
-				{% assign pages_list = nil %}
-			{% endfor %}
-				</ul>
-				{%- endif -%}
-			</div>
-			<div  style="flex: right; width: 15%">
+			<div class="category-container">
+				<div>
 <div class="sidemenu">
 			<h2 align="start">标签</h2>
       <ul>
@@ -43,6 +30,19 @@
       </ul>
 </div>
 </div>
+				{%- if site.posts.size > 0 -%}
+				<ul class="posts">
+					{% assign sorted_tags = site.tags | sort %}
+					{% for tag in sorted_tags %} 
+			  <li  id="{{ tag[0] }}-ref"> <h2 class="category">{{ tag[0] }}</h2></li>
+			    {% assign pages_list = tag[1] %}  
+			    {%- include page_list.html -%}
+				{% assign pages_list = nil %}
+			{% endfor %}
+				</ul>
+				{%- endif -%}
+			</div>
+			
 		</div>
 	</main>
 	{%- include c_footer.html -%}
