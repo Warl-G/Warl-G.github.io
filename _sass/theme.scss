@@ -1,7 +1,9 @@
 @import 'ext/fonts';
 @import 'ext/normalize';
 @import 'begin';
-@import 'syntax';
+//@import 'syntax';
+@import 'github-markdown';
+@import 'ext/solarized-light';
 
 $linkColor: #999;
 $mobileW: 768px;
@@ -107,51 +109,12 @@ footer {
 }
 
 .sidemenu{
-	margin:0 10px;
 	max-width: 720px;
-	align-items: center;
 	div.highlighter-rouge {
 		right: 150px;
 	}
-
-	@media screen and  (max-width: $mobileWidth) {
-		margin:0 10px; 
-		div.highlighter-rouge {
-			right: 15px;
-		}
-		div.highlight {
-			padding: 30px 15px;
-		}
-	}
-
-	@media screen and (max-width: $tabWidth) and (min-width: $mobileWidth){
-		margin:0 10px;	
-		div.highlighter-rouge {
-			right: 40px;
-		}
-		div.highlight {
-			padding: 30px 40px;
-		}
-	}
-
-	@media screen and (max-width: $desktopWidth) and (min-width: $tabWidth){
-		margin:0 10px;
-		div.highlighter-rouge {
-			right: 80px;
-		}
-		div.highlight {
-			padding: 30px 80px;
-		}
-	}
-
-	@media screen and (min-width: $desktopWidth) and (max-width: 1280px) {
-		margin:0 10px;
-		div.highlighter-rouge {
-			right: 100px;
-		}
-		div.highlight {
-			padding: 30px 100px;
-		}
+	h2{
+	margin-top:40px;
 	}
 
 	ul {
@@ -187,15 +150,21 @@ footer {
 // Basic Container Class
 //
 .container {
-	margin:0 150px;
+	//margin:0 150px;
 	max-width: 720px;
+	margin: auto;
+    //position: absolute;
+    //top: 0;
+    left: 0;
+    right: 0;
+    //bottom: 0;
 
 	div.highlighter-rouge {
 		right: 150px;
 	}
 
 	@media screen and  (max-width: $mobileWidth) {
-		margin:0 15px; 
+		//margin:0 15px; 
 		div.highlighter-rouge {
 			right: 15px;
 		}
@@ -205,7 +174,7 @@ footer {
 	}
 
 	@media screen and (max-width: $tabWidth) and (min-width: $mobileWidth){
-		margin:0 40px;	
+		//margin:0 40px;	
 		div.highlighter-rouge {
 			right: 40px;
 		}
@@ -215,7 +184,7 @@ footer {
 	}
 
 	@media screen and (max-width: $desktopWidth) and (min-width: $tabWidth){
-		margin:0 80px;
+		//margin:0 80px;
 		div.highlighter-rouge {
 			right: 80px;
 		}
@@ -225,12 +194,55 @@ footer {
 	}
 
 	@media screen and (min-width: $desktopWidth) and (max-width: 1280px) {
-		margin:0 100px;
+		//margin:0 100px;
 		div.highlighter-rouge {
 			right: 100px;
 		}
 		div.highlight {
 			padding: 5px 20px;
+		}
+	}
+}
+
+.category-container{
+	display: flex;
+	//max-width: 880px;
+	margin: auto;
+	padding-right: 40px;
+    left: 0;
+    right: 0;
+
+    .posts{
+    max-width:720px;
+    nargin-right:120px;
+    float:right;
+
+    }
+
+    .sidemenu{
+    	float: left; 
+    	min-width: 70px;
+    	//padding-right: 80px;
+    	margin-left:15px;
+    	margin-right: 60px;
+    }
+
+    
+
+    @media screen and  (max-width: $mobileWidth) {
+		 
+		.posts{
+			margin-right:0px;
+		}
+		.sidemenu{
+			margin-right: 10px;
+		}
+	}
+
+	@media screen and (max-width: $tabWidth) and (min-width: $mobileWidth){
+			
+		.posts{
+			margin-right: 30px;
 		}
 	}
 }
@@ -319,6 +331,8 @@ footer {
 }
 
 .post-container {
+	padding-left:32px;
+	padding-right:32px;
 	img {
 		margin: 20px 0;
 	}
