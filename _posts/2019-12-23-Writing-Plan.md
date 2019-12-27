@@ -14,7 +14,7 @@ tag: [计划, 持续更新]
 
 ### 学习手册  
 
-##### 	概念解释  
+##### 	概念解释
 
 - [ ] Unity学习—渲染原理简析   
 - [ ] Unity学习—欧拉角与万向节锁  
@@ -45,14 +45,14 @@ tag: [计划, 持续更新]
 
 ### 参考手册  
 
-- [x] [Unity手册—脚本生命周期](http://warl-g.github.io/posts/Unity-Manual-Script-Lifecycle)
-- [ ] Unity手册—脚本特性
+- [x] [Unity手册—脚本生命周期](https://warl-g.github.io/posts/Unity-Manual-Script-Lifecycle)
+- [x] [Unity手册—脚本特性](https://warl-g.github.io/posts/Unity-Manual-Attribute/)
 - [ ] 其他
 
 ## 不务正业  
 
-- [x]  [DIY NAS系列01—硬件篇](http://warl-g.github.io/posts/DIY-NAS-01)
-- [x]  [DIY NAS系列02—软件篇](http://warl-g.github.io/posts/DIY-NAS-02)
-- [x]  [DIY NAS系列03—附加功能](http://warl-g.github.io/posts/DIY-NAS-03)
-- [x]  [DIY NAS系列04—网络服务](http://warl-g.github.io/posts/DIY-NAS-04)
+- [x]  [DIY NAS系列01—硬件篇](https://warl-g.github.io/posts/DIY-NAS-01)
+- [x]  [DIY NAS系列02—软件篇](https://warl-g.github.io/posts/DIY-NAS-02)
+- [x]  [DIY NAS系列03—附加功能](https://warl-g.github.io/posts/DIY-NAS-03)
+- [x]  [DIY NAS系列04—网络服务](https://warl-g.github.io/posts/DIY-NAS-04)
 - [ ]  GitPage Blog搭建
