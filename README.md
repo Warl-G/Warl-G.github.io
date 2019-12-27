@@ -24,11 +24,12 @@ permalink: /about/
 * GitTalk评论系统
 * 将主题选择浮窗固定在底部
 * 将整体居中展示
-* 因原markdown样式表格问题，现换成GFM
+* 因原markdown样式表格问题，现换成GFM  
+* 关于
 
 ## 待加功能
 
-* 关于
+* 
 * 其他
 
 ## License
