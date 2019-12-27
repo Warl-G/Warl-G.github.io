@@ -606,13 +606,13 @@ tag: [参考手册,不定期更新]
 
 - BurstDiscardAttribute  
 
-  作用于方法和属性，将其从原生代码编译中移除  
+  作用于方法和属性，将其从 burst 编译器编译原生代码中移除  
 
 ### Unity.Collections.LowLevel.Unsafe
 
 - DeallocateOnJobCompletionAttribute  
 
-  官网暂无详细解释，直译任务结束析构
+  官网暂无详细解释，直译当 Job 完成时析构
 
 - NativeDisableParallelForRestrictionAttribute  
 
@@ -634,7 +634,7 @@ tag: [参考手册,不定期更新]
 
 - JobProducerTypeAttribute  
 
-  所有任务接口类型都需要被 JobProducerType 标记，用于被 Burst ASM Inspector 编译为执行方法
+  所有 Job 接口类型都需要被 JobProducerType 标记，用于被 Burst ASM Inspector 编译为执行方法
 
 ### .NET
 
