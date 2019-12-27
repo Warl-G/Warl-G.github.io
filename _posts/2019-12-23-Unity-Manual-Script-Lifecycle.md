@@ -12,7 +12,7 @@ tag: [参考手册, 不定期更新]
 
 本文其他地址： [简书](https://www.jianshu.com/p/995a7306caaf)   [知乎](https://zhuanlan.zhihu.com/p/98922753)  [掘金](https://juejin.im/post/5e007e6ef265da33ec7dbff1)
 
-引用版本：[Unity 官方手册 ver. 2020.1](https://docs.unity3d.com/Manual/ExecutionOrder.html)
+引用版本：[Unity 官方手册 ver. 2020.1](https://docs.unity3d.com/2020.1/Documentation/Manual/ExecutionOrder.html)
 
 ## 脚本周期
 1. 初始化阶段   

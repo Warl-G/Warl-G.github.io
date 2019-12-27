@@ -10,7 +10,7 @@ tag: [计划, 持续更新]
 
  列出计划清单，也用作目录，再添加新文后会在此处添加链接
 
-## Unity  
+## Unity
 
 ### 学习手册  
 
@@ -37,7 +37,7 @@ tag: [计划, 持续更新]
 - [ ] Unity实践—注意事项汇总
 - [ ] Unity实践—Editor自动化编译脚本
 
-### 第三方  
+### 第三方
 
 - [ ] Unity第三方—汇总
 - [ ] Unity第三方—unity-jar-resolver
@@ -47,7 +47,6 @@ tag: [计划, 持续更新]
 
 - [x] [Unity手册—脚本生命周期](http://warl-g.github.io/posts/Unity-Manual-Script-Lifecycle)
 - [ ] Unity手册—脚本特性
-
 - [ ] 其他
 
 ## 不务正业  
