@@ -12,7 +12,7 @@ tag: [学习笔记,渲染]
 
 部分特性还未使用过，且网上资料很少，所以欠缺解释，后期补足
 
-本文其他地址：[简书](https://www.jianshu.com/p/c6b897e6f2d6)	[知乎](https://zhuanlan.zhihu.com/p/105978439) 	[掘金](https://juejin.im/post/5e405c22e51d45270218e8b1)
+本文其他地址：[简书](https://www.jianshu.com/p/ee01f6d7b2f0)	[知乎](https://zhuanlan.zhihu.com/p/105978439) 	[掘金](https://juejin.im/post/5e405c22e51d45270218e8b1)
 
 ## 名词解释  
 
