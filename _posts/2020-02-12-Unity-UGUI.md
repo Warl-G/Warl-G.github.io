@@ -114,44 +114,45 @@ Rect Transform 左上角方形图标为预设好的的锚点布局，可设定�
 
 1. 锚点定位控件中心  
 
-  控件随父层大小相对位置移动
+  控件随父层大小相对位置移动  
 
-2. 锚点定位控件四角  
+2. 锚点定位控件四角   
 
-  大小随父层大小比例缩放
+  大小随父层大小比例缩放  
 
-3. 锚点定位父层四角  
+3. 锚点定位父层四角    
 
-  控件距父层四边距离不变  
+  控件距父层四边距离不变   
 
 4. 锚点定位于一边  
 
   则固定一边位置不随父层变化（如锚点固定上边，底边不随父层底边变化，另外三边保持与锚点边等间距） 
-  
 
 ### 自动布局组件 Auto Layout Components  
 
 Canvas 上仍可添加以下组件实现自动布局，但性能消耗相对较大，应避免使用
 
-1. Layout Element  
+1. Layout Element   
 	
-	自我控制最小宽高、偏好宽高、可调宽高、布局优先级
+	自我控制最小宽高、偏好宽高、可调宽高、布局优先级  
 	
-2. Aspect Ratio Fitter  
+2. Aspect Ratio Fitter   
 
-  自身比例约束 宽高比 或 随 父控件变化
+  自身比例约束宽高比或随父控件变化  
 
-3. Layout Group  
+3. Layout Group   
 
-  父控件使用 Horizon/Vertical/Grid 做子空间布局
+  父控件使用 Horizon/Vertical/Grid 做子空间布局   
 
-4. Content Size Fitter  
+4. Content Size Fitter   
 
-  父控件使用 随子控件大小变化
+  父控件使用 随子控件大小变化  
 
 ### UI 优化
-[参考](https://unity3d.com/how-to/unity-ui-optimization-tips)
+[参考](https://unity3d.com/how-to/unity-ui-optimization-tips)  
+
 [官方](https://learn.unity.com/tutorial/optimizing-unity-ui#5c7f8528edbc2a002053b5a0)  
+
 ### 基本原理
 Canvas 负责打包图形组件成批处理（batch），生成渲染命令到Unity图像系统，其过程通过C++实现，称为重批处理（rebatch）和批量构建（batch build）
 
