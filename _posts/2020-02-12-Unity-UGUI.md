@@ -1,14 +1,14 @@
 ---
 layout: post
-title:  "Unity学习—UGUI使用"
-description: Unity UI使用方法
+title:  "Unity学习—UGUI 使用"
+description: Unity UI 使用方法
 date:   2020-02-12 04:30:07 +0800
 categories: [Unity]
 tag: [学习笔记,UGUI]
 
 ---
 
-关于Unity UGUI使用方面知识
+关于Unity UGUI 使用方面知识
 
 [必读参考](http://www.arkaistudio.com/blog/2016/06/19/unity-ugui-%e5%8e%9f%e7%90%86%e7%af%87%e4%ba%94%ef%bc%9aauto-layout-%e8%87%aa%e5%8b%95%e4%bd%88%e5%b1%80/)    
 
@@ -112,41 +112,41 @@ Left、Top、Right、Bottom 为控件四边与锚点四边像素距离
 
 Rect Transform 左上角方形图标为预设好的的锚点布局，可设定对父层相对位置或边距
 
-1. 锚点定位控件中心   
+- 锚点定位控件中心   
 
-  ​	控件随父层大小相对位置移动  
+  控件随父层大小相对位置移动  
 
-2. 锚点定位控件四角   
+- 锚点定位控件四角   
 
-  ​	大小随父层大小比例缩放  
+  大小随父层大小比例缩放  
 
-3. 锚点定位父层四角    
+- 锚点定位父层四角    
 
-  ​	控件距父层四边距离不变   
+  控件距父层四边距离不变   
 
-4. 锚点定位于一边   
+- 锚点定位于一边   
 
-  ​	则固定一边位置不随父层变化（如锚点固定上边，底边不随父层底边变化，另外三边保持与锚点边等间距） 
+  则固定一边位置不随父层变化（如锚点固定上边，底边不随父层底边变化，另外三边保持与锚点边等间距） 
 
 ### 自动布局组件 Auto Layout Components  
 
 Canvas 上仍可添加以下组件实现自动布局，但性能消耗相对较大，应避免使用
 
-1. Layout Element   
+- Layout Element   
 
-  ​	自我控制最小宽高、偏好宽高、可调宽高、布局优先级  
+  自我控制最小宽高、偏好宽高、可调宽高、布局优先级  
 
-2. Aspect Ratio Fitter   
+- Aspect Ratio Fitter   
 
-  ​	自身比例约束宽高比或随父控件变化  
+  自身比例约束宽高比或随父控件变化  
 
-3. Layout Group   
+- Layout Group   
 
-  ​	父控件使用 Horizon/Vertical/Grid 做子空间布局   
+  父控件使用 Horizon/Vertical/Grid 做子空间布局   
 
-4. Content Size Fitter   
+- Content Size Fitter   
 
-  ​	父控件使用 随子控件大小变化  
+  父控件使用 随子控件大小变化  
 
 ### UI 优化
 [参考](https://unity3d.com/how-to/unity-ui-optimization-tips)  

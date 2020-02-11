@@ -16,12 +16,12 @@ tag: [计划, 持续更新]
 
 ##### 	概念解释
 
-- [ ] Unity学习—渲染原理简析   
+- [x] [Unity学习—渲染知识基础](https://warl.top/posts/Unity-Rendering-Base/)   
 - [ ] Unity学习—欧拉角与万向节锁  
 
 ##### 实际操作
 
-- [ ] Unity学习—UGUI 使用与注意事项    
+- [x] [Unity学习—UGUI 使用](https://warl.top/posts/Unity-UGUI/)    
 - [ ] Unity学习—坐标系与空间变换  
 - [ ] Unity学习—Editor 开发  
 - [ ] Unity学习—单元测试（NUnit）
@@ -36,7 +36,9 @@ tag: [计划, 持续更新]
 - [ ] Unity实践—UI 优化
 - [ ] Unity实践—多语言
 - [ ] Unity实践—注意事项汇总
-- [ ] Unity实践—Editor 自动化编译脚本
+- [ ] Unity实践—Editor 自动化编译脚本  
+- [ ] Unity实践—线程队列实现
+- [ ] Unity实践—数据库队列实现
 
 ### 依赖库
 
