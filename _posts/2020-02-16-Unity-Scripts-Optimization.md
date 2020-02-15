@@ -8,6 +8,8 @@ tag: [学习笔记,脚本,优化,Tips]
 
 ---
 
+脚本编写优化笔记
+
 本文其他地址：[简书](https://www.jianshu.com/p/274b3af67a4d)	[知乎](https://zhuanlan.zhihu.com/p/107176069) 	[掘金](https://juejin.im/post/5e48304551882549236f72ca)  
 
 [官方文档参考](https://unity3d.com/cn/learn/tutorials/topics/performance-optimization/optimizing-garbage-collection-unity-games?playlist=44069)
