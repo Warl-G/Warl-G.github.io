@@ -22,6 +22,8 @@ tag: [计划, 持续更新]
 ##### 实际操作
 
 - [x] [Unity学习—UGUI 使用](https://warl.top/posts/Unity-UGUI/)    
+- [x] [Unity学习UGUI 优化Tips](https://warl.top/posts/Unity-UGUI-Optimization/)
+- [x] [Unity学习—脚本优化Tips](https://warl.top/posts/Unity-Scripts-Optimization/)   
 - [ ] Unity学习—坐标系与空间变换  
 - [ ] Unity学习—Editor 开发  
 - [ ] Unity学习—单元测试（NUnit）
@@ -32,8 +34,6 @@ tag: [计划, 持续更新]
 
 ### 开发实践  
 
-- [ ] Unity实践—脚本优化   
-- [ ] Unity实践—UI 优化
 - [ ] Unity实践—多语言
 - [ ] Unity实践—注意事项汇总
 - [ ] Unity实践—Editor 自动化编译脚本  
