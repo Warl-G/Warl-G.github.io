@@ -40,12 +40,12 @@ tag: [计划, 持续更新]
 - [ ] Unity实践—线程队列实现
 - [ ] Unity实践—数据库队列实现
 
-### 依赖库
+### 工具
 
-- [ ] Unity依赖库—汇总
-- [ ] Unity依赖库—unity-jar-resolver
-- [ ] Unity依赖库—Monster Love/StateMachine
-- [ ] Unity依赖库—官方库
+- [ ] Unity工具—汇总
+- [x] [Unity工具—Play Services Resolver](https://warl.top/posts/play-services-resolver)
+- [ ] Unity工具—Monster Love/StateMachine
+- [ ] Unity工具—官方库
 
 ### 参考手册
 
