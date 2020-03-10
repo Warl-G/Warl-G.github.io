@@ -38,12 +38,13 @@ tag: [计划, 持续更新]
 - [ ] Unity实践—注意事项汇总
 - [ ] Unity实践—Editor 自动化编译脚本  
 - [x] [Unity实践—多线程任务队列实现](https://warl.top/posts/unity-taskqueue/)
-- [ ] Unity实践—数据库队列实现
+- [x] Unity实践—数据库队列实现(见[Unity工具—Mono.Data.Sqlite](https://warl.top/posts/unity-sqlite))
 
 ### 工具
 
 - [ ] Unity工具—汇总
-- [x] [Unity工具—Play Services Resolver](https://warl.top/posts/play-services-resolver)
+- [x] [Unity工具—Play Services Resolver](https://warl.top/posts/play-services-resolver)  
+- [x] [Unity工具—Mono.Data.Sqlite](https://warl.top/posts/unity-sqlite)
 - [ ] Unity工具—Monster Love/StateMachine
 - [ ] Unity工具—官方库
 
