@@ -52,6 +52,7 @@ tag: [计划, 持续更新]
 
 - [x] [Unity手册—脚本生命周期](https://warl-g.github.io/posts/Unity-Manual-Script-Lifecycle)
 - [x] [Unity手册—脚本特性](https://warl-g.github.io/posts/Unity-Manual-Attribute/)
+- [ ] [Unity手册-碰撞检测相关汇总](https://warl-g.github.io/posts/Unity-Collision/)
 - [ ] 其他
 
 ## 不务正业
