@@ -2,7 +2,7 @@
 layout: post
 title:  "Unity学习-AssetBundle"
 description: Unity AssetBundle 机制与最佳实践
-date:   2020-03-22 23:20:07 +0800
+date:   2020-05-17 23:20:07 +0800
 categories: [Unity]
 tag: [学习笔记,资源管理,AssetBundle]
 
