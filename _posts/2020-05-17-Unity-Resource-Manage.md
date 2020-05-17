@@ -4,7 +4,7 @@ title:  "Unity学习-资源管理概览"
 description: Unity 资源管理相关知识介绍
 date:   2020-05-17 23:00:07 +0800
 categories: [Unity]
-tag: [学习笔记,资源管理,Resources,Assetbundle,Addressable]
+tag: [学习笔记,资源管理,Resources,AssetBundle,Addressable]
 ---
 
 本文介绍了 Unity 常用四种默认路径，以及 AssetDataBase、Resources、AssetBundle 和目前最新的 Addressable 四种资源管理方式
