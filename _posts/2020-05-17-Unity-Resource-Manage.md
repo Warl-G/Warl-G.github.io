@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Unity学习-资源管理概览"
+title:  "Unity学习—资源管理概览"
 description: Unity 资源管理相关知识介绍
 date:   2020-05-17 23:00:07 +0800
 categories: [Unity]
@@ -153,7 +153,7 @@ void Start()
 
 AssetBundle 是外部资产的集合，可独立于 Unity 构建过程外，是 Unity 更新非代码内容的主要工具，经常置于服务器上供用户终端动态获取；AssetBundle 使开发者可以提交更小的应用包，最小化运行时内存压力，使终端可以选择性加载优化内容  
 
-该部分仅简单介绍 AssetBundle，更多信息可见 [Unity学习-AssetBundle](https://warl-g.github.io/posts/Unity-AssetBundle/)  
+该部分仅简单介绍 AssetBundle，更多信息可见 [Unity学习—AssetBundle](https://warl-g.github.io/posts/Unity-AssetBundle/)  
 
 #### AssetBundle 构建
 

@@ -25,8 +25,8 @@ tag: [计划, 持续更新]
 - [x] [Unity学习—UGUI 优化Tips](https://warl.top/posts/Unity-UGUI-Optimization/)
 - [x] [Unity学习—脚本优化Tips](https://warl.top/posts/Unity-Scripts-Optimization/)   
 - [x] [Unity学习—坐标系与空间变换](https://warl.top/posts/Unity-Coordinate)  
-- [x] [Unity学习-资源管理概览](https://warl-g.github.io/posts/Unity-Resource-Manage/)
-- [x] [Unity学习-AssetBundle](https://warl-g.github.io/posts/Unity-AssetBundle/)
+- [x] [Unity学习—资源管理概览](https://warl-g.github.io/posts/Unity-Resource-Manage/)
+- [x] [Unity学习—AssetBundle](https://warl-g.github.io/posts/Unity-AssetBundle/)
 - [ ] Unity学习—Editor 开发  
 - [ ] Unity学习—单元测试（NUnit）
 
@@ -54,7 +54,7 @@ tag: [计划, 持续更新]
 
 - [x] [Unity手册—脚本生命周期](https://warl-g.github.io/posts/Unity-Manual-Script-Lifecycle)
 - [x] [Unity手册—脚本特性](https://warl-g.github.io/posts/Unity-Manual-Attribute/)
-- [x] [Unity手册-碰撞检测相关汇总](https://warl-g.github.io/posts/Unity-Collision/)
+- [x] [Unity手册—碰撞检测相关汇总](https://warl-g.github.io/posts/Unity-Collision/)
 - [ ] 其他
 
 ## 不务正业

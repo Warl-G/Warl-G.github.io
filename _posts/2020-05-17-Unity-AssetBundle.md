@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Unity学习-AssetBundle"
+title:  "Unity学习—AssetBundle"
 description: Unity AssetBundle 机制与最佳实践
 date:   2020-05-17 23:20:07 +0800
 categories: [Unity]
@@ -11,7 +11,7 @@ tag: [学习笔记,资源管理,AssetBundle]
 
 本篇文章主要内容来自于官方教程 [Assets, Resources and AssetBundles](https://learn.unity.com/tutorial/assets-resources-and-assetbundles)，介绍了 AssetBundle 的各类机制，使用方式和适用场景等
 
-有关其他 Unity 资源管理的内容可见[Unity学习-资源管理概览](https://warl-g.github.io/posts/Unity-Resource-Manage/)  
+有关其他 Unity 资源管理的内容可见[Unity学习—资源管理概览](https://warl-g.github.io/posts/Unity-Resource-Manage/)  
 
 文中所有 API 均以版本 2019.3 为准
 
