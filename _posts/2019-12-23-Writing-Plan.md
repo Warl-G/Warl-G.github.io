@@ -41,6 +41,7 @@ tag: [计划, 持续更新]
 - [ ] Unity实践—Editor 自动化编译脚本  
 - [x] [Unity实践—多线程任务队列实现](https://warl.top/posts/unity-taskqueue/)
 - [x] Unity实践—数据库队列实现(见[Unity工具—Mono.Data.Sqlite](https://warl.top/posts/unity-sqlite))
+- [x] [Unity实践—本地化框架实现](https://warl-g.github.io/posts/Unity-Localization/)
 
 ### 工具
 
