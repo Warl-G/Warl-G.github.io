@@ -151,7 +151,7 @@ public Dictionary<string, string> ParseTxt(string txt)
 
 由于 `Resources`自身的弊端和限制，需要使用更加灵活的资源动态加载方法，因此又加入了对 AssetBundle 和 Addressable 的支持，有关这两种方式的信息可看文章[Unity学习—资源管理概览](https://warl-g.github.io/posts/Unity-Resource-Manage/)  
 
-在设计这两种加载方式时意识到，提供现成的加载方法会有大量的约束限制，无法做到通用，因此决定抽离 LocalizationManager 所需的两个固定的方法作为接口，以实现外部自定义  
+在设计这两种加载方式时意识到，提供现成的加载方法会有大量的约束限制，无法做到通用，因此决定抽离 LocalizationManager 所需的两个固定的方法作为接口，以实现外部自定义，并通过 `LocalizationManager.Init`方法提供给单例使用  
 
 ```c#
 public interface ILocalizationLoader
@@ -271,7 +271,7 @@ Addressables.LoadAssetAsync<T>(assetAddress).Completed += handle =>
 
 ### ILocalizationParser  
 
-由于编写的文本解析格式过于个性化，并不通用，因此扩展支持了 csv 和 json 的解析，同时仿照`ILocalizationLoader`方式，抽出解析方法到`ILocalizationParser`，以增加扩展性  
+由于编写的文本解析格式过于个性化，并不通用，因此扩展支持了 csv 和 json 的解析，同时仿照`ILocalizationLoader`方式，抽出解析方法到`ILocalizationParser`，以增加扩展性，并通过 `LocalizationManager.Init`方法提供给单例使用    
 
 ```c#
 public interface ILocalizationParser
@@ -377,3 +377,4 @@ public class LocalizationComponent : MonoBehaviour
   
 }
 ```
+
