@@ -4,7 +4,7 @@ title:  "Unity工具—汇总"
 description: Unity 工具汇总及说明
 date:   2020-02-17 18:00:07 +0800
 categories: [Unity]
-tag: [Unity工具]
+tag: [Unity工具,汇总]
  
 ---
 
@@ -12,9 +12,15 @@ tag: [Unity工具]
 
 ### 依赖管理  
 
-1. [Play Services Resolver for Unity](https://warl.top/posts/play-services-resolver)  
+1. [Play Services Resolver for Unity](https://warl-g.github.io/posts/play-services-resolver)  
 
-   面向 Unity 管理 Android 和 iOS 原生依赖库的工具  
+   面向 Unity 管理 Android 和 iOS 原生依赖库的工具   
+
+### 版本管理
+
+1. [UnityYAMLMerge](https://warl-g.github.io/posts/Unity-UnityYAMLMerge)
+
+   Unity 官方提供的 Unity 资源文件合并工具
 
 ### 多线程   
 
@@ -28,10 +34,20 @@ tag: [Unity工具]
 
 ### 数据库   
 
-1. Mono.Data.Sqlite  
+1. [Mono.Data.Sqlite](https://warl-g.github.io/posts/unity-sqlite)
 
    可实现跨平台的 Sqlite 数据库  
    
 2. [SqliteHelper](https://github.com/Warl-G/GRUnityTools)     
 
    使用 Mono.Data.Sqlite 和 TaskQueue 制作的数据库快捷操作和队列操作工具
+
+### 本地化  
+
+1. [I2 Localization]((https://assetstore.unity.com/packages/tools/localization/i2-localization-14884?locale=zh-CN))
+
+   功能强大的本地化工具
+
+2. [GRTools.Localization](https://github.com/Warl-G/GRUnityTools)
+
+   可自定义资源存取规则和文本解析格式的本地化工具

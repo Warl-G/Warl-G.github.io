@@ -4,7 +4,7 @@ title:  "Unity工具—Play Services Resolver 使用"
 description: Unity 原生依赖管理工具 Play Services Resolver  
 date:   2020-02-17 15:50:07 +0800
 categories: [Unity]
-tag: [Unity工具]
+tag: [Unity工具,依赖管理]
  
 ---
 

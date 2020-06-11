@@ -4,7 +4,7 @@ title:  "Unity工具—Mono.Data.Sqlite 使用"
 description: Unity 平台 Sqlite 集成与使用方法
 date:   2020-03-10 17:30:07 +0800
 categories: [Unity,C#]
-tag: [工具,Sqlite,数据库]
+tag: [Unity工具,Sqlite,数据库]
 ---
 
 为实现 Unity 下操作数据库，集成 Mono.Data.Sqlite， 并为实现快捷操作封装了 SqliteHelper  
