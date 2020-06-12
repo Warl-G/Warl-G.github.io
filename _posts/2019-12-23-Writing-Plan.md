@@ -16,15 +16,15 @@ tag: [计划, 持续更新]
 
 ##### 	概念解释
 
-- [x] [Unity学习—渲染知识基础](https://warl.top/posts/Unity-Rendering-Base/)   
+- [x] [Unity学习—渲染知识基础](https://warl-g.github.io/posts/Unity-Rendering-Base/)   
 - [ ] Unity学习—欧拉角与万向节锁  
 
 ##### 实际操作
 
-- [x] [Unity学习—UGUI 使用](https://warl.top/posts/Unity-UGUI/)    
-- [x] [Unity学习—UGUI 优化Tips](https://warl.top/posts/Unity-UGUI-Optimization/)
-- [x] [Unity学习—脚本优化Tips](https://warl.top/posts/Unity-Scripts-Optimization/)   
-- [x] [Unity学习—坐标系与空间变换](https://warl.top/posts/Unity-Coordinate)  
+- [x] [Unity学习—UGUI 使用](https://warl-g.github.io/posts/Unity-UGUI/)    
+- [x] [Unity学习—UGUI 优化Tips](https://warl-g.github.io/posts/Unity-UGUI-Optimization/)
+- [x] [Unity学习—脚本优化Tips](https://warl-g.github.io/posts/Unity-Scripts-Optimization/)   
+- [x] [Unity学习—坐标系与空间变换](https://warl-g.github.io/posts/Unity-Coordinate)  
 - [x] [Unity学习—资源管理概览](https://warl-g.github.io/posts/Unity-Resource-Manage/)
 - [x] [Unity学习—AssetBundle](https://warl-g.github.io/posts/Unity-AssetBundle/)
 - [ ] Unity学习—Editor 开发  
@@ -39,15 +39,17 @@ tag: [计划, 持续更新]
 - [ ] Unity实践—多语言
 - [ ] Unity实践—注意事项汇总
 - [ ] Unity实践—Editor 自动化编译脚本  
-- [x] [Unity实践—多线程任务队列实现](https://warl.top/posts/unity-taskqueue/)
-- [x] Unity实践—数据库队列实现(见[Unity工具—Mono.Data.Sqlite](https://warl.top/posts/unity-sqlite))
+- [x] [Unity实践—多线程任务队列实现](https://warl-g.github.io/posts/unity-taskqueue/)
+- [x] Unity实践—数据库队列实现(见[Unity工具—Mono.Data.Sqlite](https://warl-g.github.io/posts/unity-sqlite))
 - [x] [Unity实践—本地化框架实现](https://warl-g.github.io/posts/Unity-Localization/)
 
 ### 工具
 
 - [ ] Unity工具—汇总
-- [x] [Unity工具—Play Services Resolver](https://warl.top/posts/play-services-resolver)  
-- [x] [Unity工具—Mono.Data.Sqlite](https://warl.top/posts/unity-sqlite)
+- [x] [Unity工具—Play Services Resolver](https://warl-g.github.io/posts/play-services-resolver)  
+- [x] [Unity工具—Mono.Data.Sqlite](https://warl-g.github.io/posts/unity-sqlite)  
+- [x] [Unity工具—版本合并UnityYAMLMerge](https://warl-g.github.io/posts/Unity-UnityYAMLMerge/)
+- [x] [Unity工具—制作与使用Package](https://warl-g.github.io/posts/Unity-Package)
 - [ ] Unity工具—Monster Love/StateMachine
 - [ ] Unity工具—官方库
 
