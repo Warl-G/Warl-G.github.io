@@ -27,6 +27,7 @@ tag: [计划, 持续更新]
 - [x] [Unity学习—坐标系与空间变换](https://warl-g.github.io/posts/Unity-Coordinate)  
 - [x] [Unity学习—资源管理概览](https://warl-g.github.io/posts/Unity-Resource-Manage/)
 - [x] [Unity学习—AssetBundle](https://warl-g.github.io/posts/Unity-AssetBundle/)
+- [x] [Unity学习—JobSystem](https://warl-g.github.io/posts/Unity-JobSystem/)
 - [ ] Unity学习—Editor 开发  
 - [ ] Unity学习—单元测试（NUnit）
 
@@ -36,7 +37,6 @@ tag: [计划, 持续更新]
 
 ### 开发实践  
 
-- [ ] Unity实践—多语言
 - [ ] Unity实践—注意事项汇总
 - [ ] Unity实践—Editor 自动化编译脚本  
 - [x] [Unity实践—多线程任务队列实现](https://warl-g.github.io/posts/unity-taskqueue/)
