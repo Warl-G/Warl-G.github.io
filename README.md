@@ -29,7 +29,6 @@ permalink: /about/
 
 ## 待加功能
 
-* 
 * 其他
 
 ## License
